@@ -1,0 +1,54 @@
+{
+  "tt_sys_effect_shadow_heavy": {
+    "value": [
+      {
+        "x": "{tt_glb_size_null}",
+        "y": "{tt_glb_size_null}",
+        "blur": "{tt_glb_size_8}",
+        "spread": "0",
+        "color": "{Black&White.tt_glb_color_black_a3}",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "tt_sys_effect_shadow_regular": {
+    "value": [
+      {
+        "x": "{tt_glb_size_null}",
+        "y": "{tt_glb_size_null}",
+        "blur": "{tt_glb_size_8}",
+        "spread": "0",
+        "color": "{Black&White.tt_glb_color_black_a3}",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "tt_sys_effect_shadow_light": {
+    "value": [
+      {
+        "x": "{tt_glb_size_null}",
+        "y": "{tt_glb_size_null}",
+        "blur": "{tt_glb_size_8}",
+        "spread": "0",
+        "color": "{Black&White.tt_glb_color_black_a3}",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "tt_sys_effect_shadow_null": {
+    "value": [
+      {
+        "x": "{tt_glb_size_null}",
+        "y": "{tt_glb_size_null}",
+        "blur": "{tt_glb_size_null}",
+        "spread": "0",
+        "color": "{Black&White.tt_glb_color_null}",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  }
+}

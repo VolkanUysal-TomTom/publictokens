@@ -1,0 +1,28 @@
+{
+  "tokenSetOrder": [
+    "1 | Global/Colours/HEXs",
+    "1 | Global/Sizes/Sizes",
+    "1 | Global/Fonts/Family",
+    "1 | Global/Effects/Opacity",
+    "2 | System/Colours/Light",
+    "2 | System/Colours/Dark",
+    "2 | System/Sizes/X-Small",
+    "2 | System/Sizes/Small",
+    "2 | System/Sizes/Medium",
+    "2 | System/Sizes/Large",
+    "2 | System/Fonts/Typography",
+    "2 | System/Effects/Light Shadows",
+    "2 | System/Effects/Dark Shadows",
+    "2 | System/Effects/Disabled State",
+    "3 | Component/Colours/Light",
+    "3 | Component/Colours/Dark",
+    "3 | Component/Sizes/X-Small",
+    "3 | Component/Sizes/Small",
+    "3 | Component/Sizes/Medium",
+    "3 | Component/Sizes/Large",
+    "3 | Component/Fonts/Typography",
+    "3 | Component/Effects/Light Shadows",
+    "3 | Component/Effects/Dark Shadows",
+    "3 | Component/Effects/Disabled State"
+  ]
+}

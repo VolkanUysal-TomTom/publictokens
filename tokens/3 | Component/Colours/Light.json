@@ -1,0 +1,3287 @@
+{
+  "Buttons": {
+    "Contained": {
+      "Primary": {
+        "tt_cmp_color_containedButton_primary_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_primary_label": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_primary_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_primary_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_primary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Secondary": {
+        "tt_cmp_color_containedButton_secondary_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_secondary_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_secondary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_secondary_label": {
+          "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_secondary_icon": {
+          "value": "{Brand.tt_sys_color_onBrandSecondary_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_containedButton_secondary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Chip": {
+        "Chip Inactive": {
+          "tt_cmp_color_chip_inactive_surface": {
+            "value": "{Brand.tt_sys_color_brand_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          },
+          "tt_cmp_color_chip_inactive_label": {
+            "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          },
+          "tt_cmp_color_chip_inactive_icon": {
+            "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          },
+          "tt_cmp_color_chip_inactive_stroke": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          }
+        },
+        "Chip Active": {
+          "tt_cmp_color_chip_active_surface": {
+            "value": "{Blue.tt_glb_color_blue_200}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          },
+          "tt_cmp_color_chip_active_label": {
+            "value": "{Grey.tt_glb_color_grey_800}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          },
+          "tt_cmp_color_chip_active_icon": {
+            "value": "{Brand.tt_sys_color_brand_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          },
+          "tt_cmp_color_chip_active_stroke": {
+            "value": "{Blue.tt_glb_color_blue_400}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light"
+          }
+        }
+      },
+      "Decline": {
+        "tt_cmp_color_containedButton_decline_surface": {
+          "value": "{Actions.tt_sys_color_decline}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_decline_label": {
+          "value": "{Actions.tt_sys_color_onDecline}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_decline_surface_pressed": {
+          "value": "{Actions.tt_sys_color_decline_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_decline_icon": {
+          "value": "{Actions.tt_sys_color_onDecline}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_decline_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      },
+      "Accept": {
+        "tt_cmp_color_containedButton_accept_surface": {
+          "value": "{Actions.tt_sys_color_accept}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_accept_label": {
+          "value": "{Actions.tt_sys_color_onAccept}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_accept_surface_pressed": {
+          "value": "{Actions.tt_sys_color_accept_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_accept_icon": {
+          "value": "{Actions.tt_sys_color_onAccept}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_containedButton_accept_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      }
+    },
+    "Quick Action": {
+      "Primary": {
+        "tt_cmp_color_quickActionButton_primary_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_quickActionButton_primary_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_quickActionButton_primary_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_quickActionButton_primary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Secondary": {
+        "tt_cmp_color_quickActionButton_secondary_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_quickActionButton_secondary_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_secondary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_quickActionButton_secondary_icon": {
+          "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_quickActionButton_secondary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Grid Button": {
+      "Selected": {
+        "tt_cmp_color_gridButton_selected_surface": {
+          "value": "{Blue.tt_glb_color_blue_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_selected_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_selected_icon": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_selected_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_selected_surface_pressed": {
+          "value": "{Blue.tt_glb_color_blue_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_selected_body": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Unselected": {
+        "tt_cmp_color_gridButton_unselected_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_unselected_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_unselected_icon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_unselected_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_unselected_surface_pressed": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_gridButton_unselected_body": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "List Item": {
+      "tt_cmp_color_listItemButton_surface": {
+        "value": "{Brand.tt_sys_color_brand_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_listItemButton_surface_pressed": {
+        "value": "{Brand.tt_sys_color_brand_secondary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_listItemButton_label": {
+        "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_listItemButton_icon": {
+        "value": "{Brand.tt_sys_color_onBrandSecondary_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_listItemButton_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Uncontained": {
+      "tt_cmp_color_uncontainedButton_label": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_uncontainedButton_leftIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_uncontainedButton_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_uncontainedButton_rightIcon": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_uncontainedButton_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      }
+    },
+    "FAB": {
+      "Primary": {
+        "tt_cmp_color_fabButton_primary_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_fabButton_primary_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_fabButton_primary_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_fabButton_primary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Secondary": {
+        "tt_cmp_color_fabButton_secondary_surface": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_fabButton_secondary_surface_pressed": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_fabButton_secondary_icon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_fabButton_secondary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Suggestion": {
+      "tt_cmp_color_suggestionsButton_surface": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_suggestionsButton_stroke": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_suggestionsButton_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_suggestionsButton_label": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_suggestionsButton_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Quick Routing": {
+      "tt_cmp_color_quickRoutingButton_surface": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_quickRoutingButton_stroke": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_quickRoutingButton_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_quickRoutingButton_label": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_quickRoutingButton_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Routing": {
+      "Secondary Route": {
+        "tt_cmp_color_routeOptionButton_secondary_surface": {
+          "value": "{Grey.tt_glb_color_grey_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_routeOptionButton_secondary_surface_pressed": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_routeOptionButton_secondary_stroke": {
+          "value": "{Grey.tt_glb_color_grey_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_routeOptionButton_secondary_label": {
+          "value": "{Grey.tt_glb_color_grey_800}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Tertiary Route": {
+        "tt_cmp_color_routeOptionButton_tertiary_surface": {
+          "value": "{Grey.tt_glb_color_grey_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_routeOptionButton_tertiary_surface_pressed": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_routeOptionButton_tertiary_stroke": {
+          "value": "{Grey.tt_glb_color_grey_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_routeOptionButton_tertiary_label": {
+          "value": "{Grey.tt_glb_color_grey_800}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "End Route": {
+      "tt_cmp_color_endRouteButton_surface": {
+        "value": "{Brand.tt_sys_color_brand_secondary}",
+        "type": "color"
+      },
+      "tt_cmp_color_endRouteButton_surface_pressed": {
+        "value": "{Actions.tt_sys_color_decline}",
+        "type": "color"
+      },
+      "tt_cmp_color_endRouteButton_icon": {
+        "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_endRouteButton_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color"
+      }
+    },
+    "Filters": {
+      "Unselected": {
+        "tt_cmp_color_filtersButton_unselected_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_unselected_leftIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_unselected_rightIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_unselected_rightIcon_active": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_unselected_stroke": {
+          "value": "{Grey.tt_glb_color_grey_500}",
+          "type": "color"
+        }
+      },
+      "Selected": {
+        "tt_cmp_color_filtersButton_selected_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_selected_leftIcon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_selected_rightIcon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_filtersButton_selected_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Figma Only": {
+    "FAB": {
+      "tt_cmp_color_evFabButton_surface": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_evFabButton_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_evFabButton_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_evFabButton_stroke": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Horizon Event": {
+      "tt_cmp_color_horizonEvent_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_horizonEvent_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_horizonEvent_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_horizonEvent_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "SOC Slider": {
+      "tt_cmp_color_socSlider_track": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_progress": {
+        "value": "{POI Categories.tt_sys_color_ev}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_handle": {
+        "value": "{POI Categories.tt_sys_color_ev}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_surface": {
+        "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_icon": {
+        "value": "{POI Categories.tt_sys_color_ev}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_percentage": {
+        "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_label": {
+        "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_socSlider_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Horizon": {
+      "tt_cmp_color_horizonPanel_surface": {
+        "value": "{Black&White.tt_glb_color_white_a8}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_horizonPanel_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_horizonPanel_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_horizonPanel_handle": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "tt_cmp_color_includes_label": {
+      "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+      "type": "color",
+      "parent": "3 | Component/Colours/Light",
+      "description": ""
+    },
+    "tt_cmp_color_includes_icon": {
+      "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+      "type": "color",
+      "parent": "3 | Component/Colours/Light",
+      "description": ""
+    }
+  },
+  "Guidance": {
+    "Lane Guidance": {
+      "World": {
+        "tt_cmp_color_laneGuidance_world_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_laneGuidance_world_lane_highlighted": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_laneGuidanceWorld_lane_lowlighted": {
+          "value": "{Black&White.tt_glb_color_white_a15}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        }
+      },
+      "USA": {
+        "tt_cmp_color_laneGuidance_usa_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_laneGuidance_usa_lane_highlighted": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_laneGuidance_usa_lane_lowlighted": {
+          "value": "{Black&White.tt_glb_color_white_a15}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        }
+      }
+    },
+    "NIP": {
+      "World": {
+        "tt_cmp_color_nip_world_surface": {
+          "value": "{Guidance.tt_sys_color_worldGuidance}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_world_surface_pressed": {
+          "value": "{Guidance.tt_sys_color_worldGuidance_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_world_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_world_title": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_world_body": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_world_manoeuvreIcon": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_nip_world_surface_loading": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "USA": {
+        "tt_cmp_color_nip_usa_surface": {
+          "value": "{Guidance.tt_sys_color_usaGuidance}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_usa_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_usa_surface_pressed": {
+          "value": "{Guidance.tt_sys_color_onUsaGuidance_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_usa_title": {
+          "value": "{Guidance.tt_sys_color_onUsaGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_usa_body": {
+          "value": "{Guidance.tt_sys_color_onUsaGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_usa_manoeuvreIcon": {
+          "value": "{Guidance.tt_sys_color_onUsaGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_nip_usa_surface_loading": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "ETA": {
+      "tt_cmp_color_eta_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_eta_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_eta_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_eta_arrivalIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_eta_batteryIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_eta_stopsIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_eta_surface_loading": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_eta_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_eta_titleUnit": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_eta_noDelay": {
+        "value": "{Actions.tt_sys_color_accept}",
+        "type": "color"
+      },
+      "tt_cmp_color_eta_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color"
+      },
+      "tt_cmp_color_eta_bodyUnit": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color"
+      },
+      "tt_cmp_color_eta_delay": {
+        "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+        "type": "color"
+      },
+      "tt_cmp_color_eta_batteryAlert": {
+        "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+        "type": "color"
+      }
+    },
+    "Then Instruction": {
+      "USA": {
+        "tt_cmp_color_thenInstruction_usa_surface": {
+          "value": "{Localised.tt_glb_color_usaGreen_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_usa_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_usa_surface_pressed": {
+          "value": "{Localised.tt_glb_color_usaGreen_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_usa_title": {
+          "value": "{Guidance.tt_sys_color_onUsaGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_usa_manoeuvreIcon": {
+          "value": "{Guidance.tt_sys_color_onUsaGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      },
+      "World": {
+        "tt_cmp_color_thenInstruction_world_surface": {
+          "value": "{Localised.tt_glb_color_euBlue_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_world_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_world_surface_pressed": {
+          "value": "{Localised.tt_glb_color_euBlue_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_world_title": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_thenInstruction_world_manoeuvreIcon": {
+          "value": "{Guidance.tt_sys_color_onWorldGuidance_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      }
+    },
+    "Rerouting Event": {
+      "tt_cmp_color_reroutingEvent_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_reroutingEvent_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_reroutingEvent_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_reroutingEvent_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_reroutingEvent_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Arrival Details": {
+      "tt_cmp_color_arrivalDetails_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_arrivalDetails_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_arrivalDetails_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_arrivalDetails_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_arrivalDetails_label": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_arrivalDetails_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Speed Shields": {
+      "Neutral": {
+        "tt_cmp_color_speedShield_neutral_surface": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_neutral_surface_pressed": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_neutral_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_neutral_title": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_neutral_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Slightly Speeding": {
+        "tt_cmp_color_speedShield_slightlySpeeding_surface": {
+          "value": "{Alerts & Warnings.tt_sys_color_warning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_slightlySpeeding_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_slightlySpeeding_surface_pressed": {
+          "value": "{Alerts & Warnings.tt_sys_color_warning_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_slightlySpeeding_title": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_slightlySpeeding_body": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Speeding": {
+        "tt_cmp_color_speedShield_speeding_surface": {
+          "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_speeding_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_speeding_surface_pressed": {
+          "value": "{Alerts & Warnings.tt_sys_color_criticalWarning_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_speeding_title": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_speedShield_speeding_body": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Chevron": {
+      "Active": {
+        "tt_cmp_color_chevron_active_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_chevron_active_stroke": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_chevron_active_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Inactive": {
+        "tt_cmp_color_chevron_inactive_surface": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_chevron_inactive_stroke": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_chevron_inactive_surface_pressed": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Zone Progress Bar": {
+      "Neutral": {
+        "tt_cmp_color_zoneProgressBar_neutral_track": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_neutral_progress": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_neutral_chevron": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBarNeutral_chevronStroke": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Slightly Speeding": {
+        "tt_cmp_color_zoneProgressBar_slightlySpeeding_track": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_slightlySpeeding_progress": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_slightlySpeeding_chevron": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_slightlySpeeding_chevronStroke": {
+          "value": "{Alerts & Warnings.tt_sys_color_warning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Speeding": {
+        "tt_cmp_color_zoneProgressBar_speeding_track": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_speeding_progress": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_speeding_chevron": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_zoneProgressBar_speeding_chevronStroke": {
+          "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Warnings": {
+      "Neutral": {
+        "tt_cmp_color_warning_neutral_surface": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_surface_pressed": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_distance": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_speed": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_units": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_label": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_neutral_icon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Slightly Speeding": {
+        "tt_cmp_color_warning_slightlySpeeding_surface": {
+          "value": "{Alerts & Warnings.tt_sys_color_warning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_surface_pressed": {
+          "value": "{Alerts & Warnings.tt_sys_color_warning_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_distance": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_speed": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_units": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_label": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_slightlySpeeding_icon": {
+          "value": "{Alerts & Warnings.tt_sys_color_onWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Speeding": {
+        "tt_cmp_color_warning_speeding_surface": {
+          "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_surface_pressed": {
+          "value": "{Alerts & Warnings.tt_sys_color_criticalWarning_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_distance": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_speed": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_units": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_label": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_warning_speeding_icon": {
+          "value": "{Alerts & Warnings.tt_sys_color_onCriticalWarning}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Pins": {
+      "Single Point Location": {
+        "tt_cmp_color_singlePointLocationPins_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_singlePointLocationPins_stroke": {
+          "value": "{Black&White.tt_glb_color_black_a3}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_singlePointLocationPins_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_singlePointLocationPins_openingStroke": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_singlePointLocationPins_shadow": {
+          "value": "{Black&White.tt_glb_color_black}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    }
+  },
+  "General UI": {
+    "Pagination": {
+      "tt_cmp_color_paginationSelected": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_paginationUnselected": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Progress Bar": {
+      "tt_cmp_color_progressBar_progress": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_progressBar_track": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Overlay": {
+      "tt_cmp_color_overlay_surface": {
+        "value": "{Black&White.tt_glb_color_black_a5}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      }
+    },
+    "Input Fields": {
+      "Inactive": {
+        "tt_cmp_color_input_inactive_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_inactive_underline": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_inactive_label": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_inactive_clear": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_inactive_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Active": {
+        "tt_cmp_color_input_active_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_active_underline": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_active_label": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_active_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_active_clear": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Typing": {
+        "tt_cmp_color_input_typing_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_typing_underline": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_typing_label": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_typing_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_input_typing_clear": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    }
+  },
+  "Headers": {
+    "Header": {
+      "tt_cmp_color_header_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_header_leftIcon": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_header_rightIcon": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_header_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_header_label": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_header_body": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color"
+      }
+    },
+    "Search Input": {
+      "Inactive": {
+        "tt_cmp_color_searchInput_inactive_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_inactive_leftOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_inactive_rightOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_inactive_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_inactive_stroke": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_inactive_leftInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_inactive_rightInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Active": {
+        "tt_cmp_color_searchInput_active_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_leftOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_rightOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_leftInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_rightInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_active_cursor": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Quick Link POI": {
+        "tt_cmp_color_searchInput_poi_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_poi_stroke": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_poi_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_poi_leftOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_poi_rightOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_poi_leftInnerIcon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_poi_rightInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Typing": {
+        "tt_cmp_color_searchInput_typing_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_leftOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_rightOuterIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_leftInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_rightInnerIcon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_searchInput_typing_cursor": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    }
+  },
+  "Subheadings": {
+    "Subheader": {
+      "tt_cmp_color_subheader_subtitle": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_subheader_leftIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_subheader_rightIcon": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_subheader_divider": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    }
+  },
+  "Dividers": {
+    "Horizontal": {
+      "tt_cmp_color_divider_horizontal": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Vertical": {
+      "tt_cmp_color_divider_vertical": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    }
+  },
+  "List Items": {
+    "Search Result Item": {
+      "tt_cmp_color_searchResultItem_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_bodyUnit": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_plugTypeIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_listNumber": {
+        "value": "{Brand.tt_sys_color_onBrand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_listNumberSurface": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_categoryIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_directionalIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_direction": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_chargeSpeedIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_surface_loading": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_distance": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchResultItem_positive": {
+        "value": "{Alerts & Warnings.tt_sys_color_positive}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      },
+      "tt_cmp_color_searchResultItem_negative": {
+        "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light"
+      }
+    },
+    "Menu & Settings": {
+      "Settings Item": {
+        "tt_cmp_color_settingsItem_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_settingsItem_surface_pressed": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_settingsItem_title": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_settingsItem_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_settingsItem_unit": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_settingsItem_leftIcon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_settingsItem_rightIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Menu Item": {
+        "tt_cmp_color_menuItem_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_menuItem_surface_pressed": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_menuItem_title": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_menuItem_leftIcon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_menuItem_rightIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Routing": {
+      "Route Overview Items": {
+        "Start Item": {
+          "tt_cmp_color_routingStartItem_surface": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_surface_pressed": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_title": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_body": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_unit": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_icon": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_batteryIcon": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingStartItem_stroke": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          }
+        },
+        "Route Item": {
+          "tt_cmp_color_routingLocationItem_surface": {
+            "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingLocationItem_iconSurface": {
+            "value": "{Brand.tt_sys_color_brand_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingLocationItem_surface_pressed": {
+            "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary_pressed}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingLocationItem_title": {
+            "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingLocationItem_icon": {
+            "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingLocationItem_iconOnSurface": {
+            "value": "{Brand.tt_sys_color_onBrand_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingLocationItem_journeyInformationIcons": {
+            "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingLocationItem_body": {
+            "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingLocationItem_stroke": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingLocationItem_iconSurfaceStroke": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingLocationItem_firstLineUnit": {
+            "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          }
+        },
+        "Connection Item": {
+          "tt_cmp_color_routingConnectionItem_surface": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingConnectionItem_stroke": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingConnectionItem_surface_pressed": {
+            "value": "{Black&White.tt_glb_color_null}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark",
+            "description": ""
+          },
+          "tt_cmp_color_routingConnectionItem_body": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingConnectionItem_connectionIcon": {
+            "value": "{Brand.tt_sys_color_brand_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingConnectionItem_label": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Dark"
+          },
+          "tt_cmp_color_routingConnectionItem_unit": {
+            "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_secondary}",
+            "type": "color"
+          },
+          "tt_cmp_color_routingConnectionItem_helper": {
+            "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Location": {
+      "EV Availability Items": {
+        "tt_cmp_color_evAvailabilityItem_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_evAvailabilityItem_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_evAvailabilityItem_icon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_evAvailabilityItem_title": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_evAvailabilityItem_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_evAvailabilityItem_informationIcons": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Expandable content": {
+      "Opening Hours": {
+        "tt_cmp_color_openingHoursItem_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark",
+          "description": ""
+        },
+        "tt_cmp_color_openingHoursItem_surface_pressed": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark",
+          "description": ""
+        },
+        "tt_cmp_color_openingHoursItem_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark",
+          "description": ""
+        },
+        "tt_cmp_color_openingHoursItem_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark",
+          "description": ""
+        },
+        "tt_cmp_color_openingHoursItem_icon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_openingHoursItem_dropDownIcon-copy": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color"
+        },
+        "tt_cmp_color_openingHoursItem_title": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        }
+      }
+    },
+    "Information Item": {
+      "tt_cmp_color_informationItem_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color"
+      },
+      "tt_cmp_color_informationItem_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_informationItem_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_informationItem_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color"
+      },
+      "tt_cmp_color_informationItem_surface_loading": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_tertiary}",
+        "type": "color"
+      },
+      "tt_cmp_color_informationItem_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color"
+      }
+    }
+  },
+  "Notification Content": {
+    "Search Messages": {
+      "tt_cmp_color_searchMessage_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_searchMessage_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Rating": {
+      "tt_cmp_color_rating_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_rating_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_rating_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_rating_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Modal Text": {
+      "tt_cmp_color_modalText_title": {
+        "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_modalText_body": {
+        "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_tertiary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Routing Messages": {
+      "tt_cmp_color_routingMessage_icon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_routingMessage_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Tooltips": {
+      "Alert": {
+        "tt_cmp_color_tooltip_alert_surface": {
+          "value": "{Alerts & Warnings.tt_sys_color_alert}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_alert_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_alert_pressed": {
+          "value": "{Alerts & Warnings.tt_sys_color_alert}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_alert_title": {
+          "value": "{Alerts & Warnings.tt_sys_color_onAlert}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_alert_label": {
+          "value": "{Alerts & Warnings.tt_sys_color_onAlert}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_tooltip_alert_body": {
+          "value": "{Alerts & Warnings.tt_sys_color_onAlert}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_alert_icon": {
+          "value": "{Alerts & Warnings.tt_sys_color_onAlert}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Floating": {
+        "tt_cmp_color_tooltip_floating_surface": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_floating_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_floating_pressed": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_floating_title": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_floating_label": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_tooltip_floating_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_floating_icon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Panel": {
+        "tt_cmp_color_tooltip_panel_surface": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_panel_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_panel_pressed": {
+          "value": "{Surfaces.Secondary.tt_sys_color_surface_secondary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_panel_title": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_panel_label": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_tooltip_panel_body": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_tooltip_panel_icon": {
+          "value": "{Surfaces.Secondary.tt_sys_color_onSecondarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Highlight": {
+        "tt_cmp_color_tooltip_highlight_surface": {
+          "value": "{Grey.tt_glb_color_grey_100}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_tooltip_highlight_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_tooltip_highlight_pressed": {
+          "value": "{Grey.tt_glb_color_grey_200}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_tooltip_highlight_title": {
+          "value": "{Grey.tt_glb_color_grey_600}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_tooltip_highlight_label": {
+          "value": "{Grey.tt_glb_color_grey_600}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_tooltip_highlight_body": {
+          "value": "{Grey.tt_glb_color_grey_400}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_tooltip_highlight_icon": {
+          "value": "{Grey.tt_glb_color_grey_600}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      }
+    },
+    "Carousel Text": {
+      "tt_cmp_color_carouselText_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_carouselText_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_carouselText_hyperlink": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_carouselText_icon": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    }
+  },
+  "Location": {
+    "Location Details": {
+      "tt_cmp_color_locationDetails_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_surface_pressed": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_body": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_distance": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_journeyTime": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_locationDetails_openingHoursLabel": {
+        "value": "{Actions.tt_sys_color_accept}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_locationDetails_amenitiesIcons": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color"
+      },
+      "tt_cmp_color_locationDetails_chargeTimeIcon": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color"
+      },
+      "tt_cmp_color_locationDetails_chargeTime": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_secondary}",
+        "type": "color"
+      }
+    },
+    "Information Pill": {
+      "tt_cmp_color_informationPill_surface": {
+        "value": "{Brand.tt_sys_color_brand_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_informationPill_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_informationPill_surface_pressed": {
+        "value": "{Brand.tt_sys_color_brand_secondary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_informationPill_title": {
+        "value": "{Brand.tt_sys_color_onBrandSecondary_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_informationPill_body": {
+        "value": "{Brand.tt_sys_color_onBrandSecondary_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_informationPill_amenitiesIcons": {
+        "value": "{Brand.tt_sys_color_onBrandSecondary_secondary}",
+        "type": "color"
+      }
+    },
+    "Status Pill": {
+      "Positive": {
+        "tt_cmp_color_statusPill_positive_surface": {
+          "value": "{Green.tt_glb_color_green_300_a4}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_positive_surface_pressed": {
+          "value": "{Alerts & Warnings.tt_sys_color_positive_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_positive_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_positive_icon": {
+          "value": "{Green.tt_glb_color_green_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_positive_title": {
+          "value": "{Green.tt_glb_color_green_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      },
+      "Alert": {
+        "tt_cmp_color_statusPill_alert_surface": {
+          "value": "{Yellow.tt_glb_color_yellow_300_a4}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_alert_surface_pressed": {
+          "value": "{Yellow.tt_glb_color_yellow_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_alert_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_alert_icon": {
+          "value": "{Yellow.tt_glb_color_yellow_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_alert_title": {
+          "value": "{Yellow.tt_glb_color_yellow_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      },
+      "Critical Warning": {
+        "tt_cmp_color_statusPill_criticalWarning_surface": {
+          "value": "{Red.tt_glb_color_red_300_a4}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_criticalWarning_surface_pressed": {
+          "value": "{Red.tt_glb_color_red_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_criticalWarning_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_criticalWarning_icon": {
+          "value": "{Red.tt_glb_color_red_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_statusPill_criticalWarning_title": {
+          "value": "{Red.tt_glb_color_red_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      }
+    },
+    "Parking Availability": {
+      "tt_cmp_color_parkingAvailability_parkingLow": {
+        "value": "{Alerts & Warnings.tt_sys_color_warning}",
+        "type": "color"
+      },
+      "tt_cmp_color_parkingAvailability_parkingFair": {
+        "value": "{Yellow.tt_glb_color_yellow_100}",
+        "type": "color"
+      },
+      "tt_cmp_color_parkingAvailability_parkingGood": {
+        "value": "{Alerts & Warnings.tt_sys_color_positive}",
+        "type": "color"
+      }
+    }
+  },
+  "Controls": {
+    "Switches": {
+      "Unselected": {
+        "tt_cmp_color_switch_unselected_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_switch_unselected_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_switch_unselected_handle": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Selected": {
+        "tt_cmp_color_switch_selected_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_switch_selected_handle": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_switch_selected_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Slider": {
+      "tt_cmp_color_slider_track": {
+        "value": "{Brand.tt_sys_color_brand_secondary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark"
+      },
+      "tt_cmp_color_slider_progress": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_slider_handle": {
+        "value": "{Brand.tt_sys_color_brand_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Dark",
+        "description": ""
+      },
+      "tt_cmp_color_slider_surface": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color"
+      },
+      "tt_cmp_color_slider_title": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color"
+      },
+      "tt_cmp_color_slider_unit": {
+        "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+        "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Unselected": {
+        "tt_cmp_color_checkbox_unselected_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_checkbox_unselected_stroke": {
+          "value": "{Blue.tt_glb_color_blue_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Selected": {
+        "tt_cmp_color_checkbox_selected_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_checkbox_selected_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_checkbox_selected_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Radio": {
+      "Unselected": {
+        "tt_cmp_color_radio_unselected_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light"
+        },
+        "tt_cmp_color_radio_unselected_stroke": {
+          "value": "{Blue.tt_glb_color_blue_300}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      },
+      "Selected": {
+        "tt_cmp_color_radio_selected_surface": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_radio_selected_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary_pressed}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        },
+        "tt_cmp_color_radio_selected_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Light",
+          "description": ""
+        }
+      }
+    },
+    "Scroll Bar": {
+      "Inactive": {
+        "tt_cmp_color_scrollBar_inactive_handle": {
+          "value": "{Black&White.tt_glb_color_black_a15}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_inactive_handleStroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_inactive_track": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_inactive_trackStroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_inactive_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_inactive_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      },
+      "Active": {
+        "tt_cmp_color_scrollBar_active_handle": {
+          "value": "{Black&White.tt_glb_color_white}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_handleStroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_track": {
+          "value": "{Black&White.tt_glb_color_white_a15}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_trackStroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_popoutSurface": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_popoutStroke": {
+          "value": "{Grey.tt_glb_color_grey_400}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        },
+        "tt_cmp_color_scrollBar_active_popoutTitle": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color",
+          "parent": "3 | Component/Colours/Dark"
+        }
+      }
+    },
+    "SegmentedControl": {
+      "Selected": {
+        "tt_cmp_color_segmentedControl_selected_surface": {
+          "value": "{Blue.tt_glb_color_blue_500}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_selected_stroke": {
+          "value": "{Brand.tt_sys_color_brand_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_selected_icon": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_selected_label": {
+          "value": "{Brand.tt_sys_color_onBrand_primary}",
+          "type": "color"
+        }
+      },
+      "Unselected": {
+        "tt_cmp_color_segmentedControl_unselected_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_unselected_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_unselected_icon": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_unselected_label": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        }
+      },
+      "Group": {
+        "tt_cmp_color_segmentedControl_group_surface": {
+          "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_segmentedControl_group_stroke": {
+          "value": "{Black&White.tt_glb_color_black_a3}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Panels": {
+    "Neutral": {
+      "tt_cmp_color_panel_neutral_surface": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_neutral_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_neutral_handle": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_neutral_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "USA": {
+      "tt_cmp_color_panel_usa_surface": {
+        "value": "{Guidance.tt_sys_color_usaGuidance}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_usa_surface_pressed": {
+        "value": "{Guidance.tt_sys_color_usaGuidance_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_usa_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_usa_handle": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Modals": {
+      "tt_cmp_color_modals_surface": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_modals_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_modals_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "World": {
+      "tt_cmp_color_panel_world_surface": {
+        "value": "{Guidance.tt_sys_color_worldGuidance}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_world_surface_pressed": {
+        "value": "{Guidance.tt_sys_color_worldGuidance_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_world_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_panel_world_handle": {
+        "value": "{User Interface Controls.tt_sys_color_uiControls}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    },
+    "Fullscreen": {
+      "tt_cmp_color_fullscreen_surface": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_fullscreen_surface_pressed": {
+        "value": "{Surfaces.Primary.tt_sys_color_surface_primary_pressed}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      },
+      "tt_cmp_color_fullscreen_stroke": {
+        "value": "{Black&White.tt_glb_color_null}",
+        "type": "color",
+        "parent": "3 | Component/Colours/Light",
+        "description": ""
+      }
+    }
+  },
+  "Routing": {
+    "Routing": {
+      "Route Lines": {
+        "Primary": {
+          "tt_cmp_color_route_primary_route": {
+            "value": "{Brand.tt_sys_color_brand_primary}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light",
+            "description": ""
+          },
+          "tt_cmp_color_route_primary_outline": {
+            "value": "{Blue.tt_glb_color_blue_500}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light",
+            "description": ""
+          }
+        },
+        "Secondary": {
+          "tt_cmp_color_route_secondary_route": {
+            "value": "{Grey.tt_glb_color_grey_100}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light",
+            "description": ""
+          },
+          "tt_cmp_color_route_secondary_outline": {
+            "value": "{Grey.tt_glb_color_grey_300}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light",
+            "description": ""
+          }
+        },
+        "Tertiary": {
+          "tt_cmp_color_route_tertiary_route": {
+            "value": "{Grey.tt_glb_color_grey_100}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light",
+            "description": ""
+          },
+          "tt_cmp_color_route_tertiary_outline": {
+            "value": "{Grey.tt_glb_color_grey_300}",
+            "type": "color",
+            "parent": "3 | Component/Colours/Light",
+            "description": ""
+          }
+        }
+      },
+      "Journey Summary": {
+        "tt_cmp_color_route_journeySummary_surface": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_journeySummary_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_journeySummary_body": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_journeySummary_units": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_journeySummary_infoIcons": {
+          "value": "{Surfaces.Primary.tt_sys_color_onPrimarySurface_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_journeySummary_delay": {
+          "value": "{Alerts & Warnings.tt_sys_color_criticalWarning}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_journeySummary_noDelay": {
+          "value": "{Alerts & Warnings.tt_sys_color_positive}",
+          "type": "color"
+        }
+      },
+      "Restricted Route Information": {
+        "tt_cmp_color_route_restrictedRouteInformation_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_restrictedRouteInformation_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_secondary_pressed}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_restrictedRouteInformation_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_restrictedRouteInformation_title": {
+          "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_restrictedRouteInformation_rightIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color"
+        }
+      },
+      "Route Includes": {
+        "tt_cmp_color_route_routeIncludes_surface": {
+          "value": "{Brand.tt_sys_color_brand_secondary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_routeIncludes_surface_pressed": {
+          "value": "{Brand.tt_sys_color_brand_secondary_pressed}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_routeIncludes_title": {
+          "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_routeIncludes_avoidIcons": {
+          "value": "{Brand.tt_sys_color_onBrandSecondary_primary}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_routeIncludes_stroke": {
+          "value": "{Black&White.tt_glb_color_null}",
+          "type": "color"
+        },
+        "tt_cmp_color_route_routeIncludes_rightIcon": {
+          "value": "{User Interface Controls.tt_sys_color_uiControls}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
